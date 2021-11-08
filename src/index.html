@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css"/>
+    <script type="module" src="./index.js"></script>
+    <title>My Contacts</title>
+</head>
+<body class="container-fluid">
+    <h1 class="text-center">My Contacts</h1>
+    <div class="main_content">
+        <form id="add-contact-form">
+            <h2 id="form_header">Add Contact</h2>
+            <div class="input_field form-group">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="address1">Address Line 1: </label>
+                <input type="text" id="address1" name="address1" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="address2">Address Line 2: </label>
+                <input type="text" id="address2" name="address2" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="city">City: </label>
+                <input type="text" id="city" name="city" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="state">State: </label>
+                <input type="text" id="state" name="state" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="zip">Zip: </label>
+                <input type="text" id="zip" name="zip" class="form-control"/>
+            </div>
+            <div class="input_field form-group">
+                <label for="phone">Phone: </label>
+                <input type="text" id="phone" name="phone" class="form-control"/>
+            </div>
+            <button id="submit_btn" class="btn btn-success" type="submit">Submit</button>
+        </form>
+        <main>
+            <h1>Contact List:</h1>
+        </main>
+
+    </div>
+    <footer>&copy; 2021 Michael Albrecht</footer>
+</body>
+</html>
